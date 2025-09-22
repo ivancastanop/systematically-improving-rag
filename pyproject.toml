@@ -68,11 +68,10 @@ dependencies = [
     "mkdocs-redirects>=1.2.0", # Avoid broken links
     "mkdocs-section-index>=0.3.5", # Section index pages
     "mkdocs-glightbox>=0.3.0", # Image lightboxes
-    "mkdocs-mermaid2-plugin>=1.1.1", # Enhanced Mermaid support
-    # "mkdocs-sitemap-plugin>=0.8.0",            # Uncomment for SEO sitemap
-    # "mike>=2.0.0",                             # Uncomment for versioned docs
-    "cairosvg>=2.8.2",
+    "mkdocs-mermaid2-plugin>=1.1.1",
     "qrcode>=8.2",
+    "cairosvg>=2.8.2",
+    "pymdown-extensions>=10.16",
 ]
 
 [build-system]

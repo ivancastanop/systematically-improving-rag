@@ -124,7 +124,6 @@ plugins:
 # --- Markdown Extensions ---
 markdown_extensions:
   - pymdownx.highlight
-  - pymdownx.superfences
   - pymdownx.caret # Insertions, deletions, highlights
   - pymdownx.snippets # Reusable markdown snippets
   - pymdownx.inlinehilite # Inline code highlighting
@@ -136,6 +135,11 @@ markdown_extensions:
   - md_in_html
   - pymdownx.tasklist
   - pymdownx.arithmatex
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 # --- Navigation Suggestions ---
 # - Ensure each major section starts with an overview/landing page
